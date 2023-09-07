@@ -1,10 +1,5 @@
 import {v1} from "uuid"
-
-export type TaskType = {
-    id: string,
-    title: string,
-    isDone: boolean
-}
+import { TaskType } from "../types/types"
 
 const REMOVE_TASK_FROM_TODO = 'REMOVE-TASK-FROM-TODO'
 const ADD_TASK = 'ADD-TASK'
