@@ -30,7 +30,7 @@
     "predeploy": "rm -rf build && npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://de-lynn.github.io/gh-pages-demo",
+  "homepage": "https://de-lynn.github.io/todo",
   "eslintConfig": {
     "extends": [
       "react-app",
